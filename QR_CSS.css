@@ -3,7 +3,6 @@ html {
 }
 body {
     background-color: hsl(212, 45%, 89%);
-    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,19 +12,35 @@ section {
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     width: 400px;
-    height: 600px;
+    height: 620px;
+    border-radius: 25px;
+    position: relative;
+    top: 55px;
+
+
 }
 #qrcode {
-    width: 300px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+
 }
 #tagline {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    text-align: center;
+    font-size: 35px;
+    transform: scale(.75);
+    position: relative;
+    top: 10px;
 }
 #directions {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    color: hsl(212, 45%, 89%);
-    text-align: center;
+    font-size: 25px;
+    transform: scale(.8);
+    color: hsl(220, 15%, 55%);
+    position: relative;
+    top: -20px;
 }
